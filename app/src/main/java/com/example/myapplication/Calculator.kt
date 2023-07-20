@@ -1,6 +1,6 @@
 package com.example.myapplication
 
-open class Calculator{
+class Calculator{
     fun op() {
         while (true)
     {
@@ -16,16 +16,16 @@ open class Calculator{
 
             if (selec == 1.0) {
                 // 덧셈일 때
-                println("${AddOperation().add(num1,num2)}")
+                println("${AddOperation().operation(num1,num2)}")
             } else if (selec == 2.0) {
                 // 뺄셈일 때
-                println("${SubstractOperation().substract(num1, num2)} ")
+                println("${SubstractOperation().operation(num1, num2)} ")
             } else if (selec == 3.0) {
                 // 곱셈일 때
-                println("${MultiplyOperation().multiply(num1, num2)}")
+                println("${MultiplyOperation().operation(num1, num2)}")
             } else if (selec == 4.0) {
                 // 나눗셈일 때
-                println("${DivideOperation().divide(num1, num2)}")
+                println("${DivideOperation().operation(num1, num2)}")
             } else {
                 // 잘못된 연산자 일 때
                 println("입력이 잘못되었습니다")
