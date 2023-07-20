@@ -16,16 +16,16 @@ open class Calculator{
 
             if (selec == 1.0) {
                 // 덧셈일 때
-                println("${calc.op(AddOperation(),num1, num2)}")
+                println("${AddOperation().add(num1,num2)}")
             } else if (selec == 2.0) {
                 // 뺄셈일 때
-                println("${calc.op(SubstractOperation(), num1, num2)} ")
+                println("${SubstractOperation().substract(num1, num2)} ")
             } else if (selec == 3.0) {
                 // 곱셈일 때
-                println("${calc.op(MultiplyOperation(), num1, num2)}")
+                println("${MultiplyOperation().multiply(num1, num2)}")
             } else if (selec == 4.0) {
                 // 나눗셈일 때
-                println("${calc.op(DivideOperation(), num1, num2)}")
+                println("${DivideOperation().divide(num1, num2)}")
             } else {
                 // 잘못된 연산자 일 때
                 println("입력이 잘못되었습니다")
