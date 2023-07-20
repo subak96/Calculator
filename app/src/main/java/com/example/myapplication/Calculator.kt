@@ -8,7 +8,6 @@ class Calculator{
             println("번호를 선택해주세요")
             println("[1]덧셈 , [2]뺄셈 , [3]곱셈 , [4]나눗셈")
             var selec = readLine()!!.toDouble()
-            var calc = Calculator()
             println("첫번째 값을 입력해주세요")
             var num1 = readLine()!!.toDouble()
             println("두번째 값을 입력해주세요")
