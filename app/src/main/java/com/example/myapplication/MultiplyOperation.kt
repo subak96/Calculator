@@ -1,5 +1,8 @@
 package com.example.myapplication
 
 class MultiplyOperation : Calculator(){
-    fun Multiply(num1: Int, num2: Int): Double = (num1 + num2).toDouble()
+    fun multiply( num1: Double, num2: Double) : Double {
+
+        return num1 * num2
+    }
 }
